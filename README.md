@@ -1,10 +1,10 @@
 # Group TEAM_NUMBER
 Group Name: TEAM_NAME
 
-[MVP Link](http://cs196.cs.illinois.edu)
+[MVP Link](https://docs.google.com/document/d/1yo571jks9CNipsO05hjbxLQ3gBluQv_UeOtOESS1JKs/edit?usp=sharing)
 
-Team Members: STUDENTS_NETIDS
+Team Members: harsha4, ritvikg2, wtrepp2, xcai17
 
-Project Manager: PM_NETID
+Project Manager: mgeimer2, rlwei2
 
-Project Description: 
+Project Description: A travel app for planning trips.
