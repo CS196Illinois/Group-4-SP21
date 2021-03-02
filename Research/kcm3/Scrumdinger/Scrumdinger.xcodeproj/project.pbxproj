@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF8609F725EDD90C00A3D869 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8609F625EDD90C00A3D869 /* DailyScrum.swift */; };
+		AF8609FA25EDD97400A3D869 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8609F925EDD97400A3D869 /* CardView.swift */; };
 		AF89007225EC21AB008E2CA3 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF89007125EC21AB008E2CA3 /* ScrumdingerApp.swift */; };
 		AF89007425EC21AB008E2CA3 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF89007325EC21AB008E2CA3 /* MeetingView.swift */; };
 		AF89007625EC21AD008E2CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF89007525EC21AD008E2CA3 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF8609F625EDD90C00A3D869 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		AF8609F925EDD97400A3D869 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AF89006E25EC21AB008E2CA3 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF89007125EC21AB008E2CA3 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		AF89007325EC21AB008E2CA3 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				AF89007125EC21AB008E2CA3 /* ScrumdingerApp.swift */,
 				AF89007325EC21AB008E2CA3 /* MeetingView.swift */,
+				AF8609F625EDD90C00A3D869 /* DailyScrum.swift */,
+				AF8609F925EDD97400A3D869 /* CardView.swift */,
 				AF89007525EC21AD008E2CA3 /* Assets.xcassets */,
 				AF89007A25EC21AD008E2CA3 /* Info.plist */,
 				AF89007725EC21AD008E2CA3 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF89007425EC21AB008E2CA3 /* MeetingView.swift in Sources */,
+				AF8609F725EDD90C00A3D869 /* DailyScrum.swift in Sources */,
+				AF8609FA25EDD97400A3D869 /* CardView.swift in Sources */,
 				AF89007225EC21AB008E2CA3 /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
