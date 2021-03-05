@@ -13,6 +13,7 @@
 		AF89007425EC21AB008E2CA3 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF89007325EC21AB008E2CA3 /* MeetingView.swift */; };
 		AF89007625EC21AD008E2CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF89007525EC21AD008E2CA3 /* Assets.xcassets */; };
 		AF89007925EC21AD008E2CA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF89007825EC21AD008E2CA3 /* Preview Assets.xcassets */; };
+		AFEF3ECA25F1E34E00A52682 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF3EC925F1E34E00A52682 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF89007525EC21AD008E2CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF89007825EC21AD008E2CA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF89007A25EC21AD008E2CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEF3EC925F1E34E00A52682 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AF89007325EC21AB008E2CA3 /* MeetingView.swift */,
 				AF8609F625EDD90C00A3D869 /* DailyScrum.swift */,
 				AF8609F925EDD97400A3D869 /* CardView.swift */,
+				AFEF3EC925F1E34E00A52682 /* ScrumsView.swift */,
 				AF89007525EC21AD008E2CA3 /* Assets.xcassets */,
 				AF89007A25EC21AD008E2CA3 /* Info.plist */,
 				AF89007725EC21AD008E2CA3 /* Preview Content */,
@@ -147,6 +150,7 @@
 				AF89007425EC21AB008E2CA3 /* MeetingView.swift in Sources */,
 				AF8609F725EDD90C00A3D869 /* DailyScrum.swift in Sources */,
 				AF8609FA25EDD97400A3D869 /* CardView.swift in Sources */,
+				AFEF3ECA25F1E34E00A52682 /* ScrumsView.swift in Sources */,
 				AF89007225EC21AB008E2CA3 /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
