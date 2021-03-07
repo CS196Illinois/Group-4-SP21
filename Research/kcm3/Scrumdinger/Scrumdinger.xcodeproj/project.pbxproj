@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF5103C225F351BA003638BA /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5103C125F351BA003638BA /* Color+Codable.swift */; };
+		AF6816DA25F4AAC300A975FD /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6816D925F4AAC300A975FD /* MeetingTimerView.swift */; };
 		AF8609F725EDD90C00A3D869 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8609F625EDD90C00A3D869 /* DailyScrum.swift */; };
 		AF8609FA25EDD97400A3D869 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8609F925EDD97400A3D869 /* CardView.swift */; };
 		AF86A81E25F4923B00CFC30E /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86A81D25F4923B00CFC30E /* ScrumData.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		AF5103C125F351BA003638BA /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		AF6816D925F4AAC300A975FD /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		AF8609F625EDD90C00A3D869 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		AF8609F925EDD97400A3D869 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AF86A81D25F4923B00CFC30E /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				AF89007325EC21AB008E2CA3 /* MeetingView.swift */,
 				AFE4D64925F47B2000759800 /* MeetingFooterView.swift */,
 				AFEF3EC925F1E34E00A52682 /* ScrumsView.swift */,
+				AF6816D925F4AAC300A975FD /* MeetingTimerView.swift */,
 				AFD088D725F2ED7B0076142C /* DetailView.swift */,
 				AF5103C125F351BA003638BA /* Color+Codable.swift */,
 				AF8609F625EDD90C00A3D869 /* DailyScrum.swift */,
@@ -181,6 +184,7 @@
 			files = (
 				AF89007425EC21AB008E2CA3 /* MeetingView.swift in Sources */,
 				AFD088D825F2ED7B0076142C /* DetailView.swift in Sources */,
+				AF6816DA25F4AAC300A975FD /* MeetingTimerView.swift in Sources */,
 				AF5103C225F351BA003638BA /* Color+Codable.swift in Sources */,
 				AFE4D64025F4793900759800 /* MeetingHeaderView.swift in Sources */,
 				AF86A81E25F4923B00CFC30E /* ScrumData.swift in Sources */,
