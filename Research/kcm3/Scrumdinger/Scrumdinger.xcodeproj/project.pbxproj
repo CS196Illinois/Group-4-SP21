@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		AF5103C225F351BA003638BA /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5103C125F351BA003638BA /* Color+Codable.swift */; };
 		AF6816DA25F4AAC300A975FD /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6816D925F4AAC300A975FD /* MeetingTimerView.swift */; };
+		AF6816DD25F4AC8300A975FD /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6816DC25F4AC8300A975FD /* SpeechRecognizer.swift */; };
+		AF6816E025F4AE2900A975FD /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6816DF25F4AE2900A975FD /* HistoryView.swift */; };
+		AF6816E325F4AEB800A975FD /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6816E225F4AEB800A975FD /* AVPlayer+Ding.swift */; };
 		AF8609F725EDD90C00A3D869 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8609F625EDD90C00A3D869 /* DailyScrum.swift */; };
 		AF8609FA25EDD97400A3D869 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8609F925EDD97400A3D869 /* CardView.swift */; };
 		AF86A81E25F4923B00CFC30E /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86A81D25F4923B00CFC30E /* ScrumData.swift */; };
@@ -28,6 +31,9 @@
 /* Begin PBXFileReference section */
 		AF5103C125F351BA003638BA /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		AF6816D925F4AAC300A975FD /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		AF6816DC25F4AC8300A975FD /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		AF6816DF25F4AE2900A975FD /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		AF6816E225F4AEB800A975FD /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		AF8609F625EDD90C00A3D869 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		AF8609F925EDD97400A3D869 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AF86A81D25F4923B00CFC30E /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
@@ -62,6 +68,8 @@
 			children = (
 				AFE4D64225F479E500759800 /* ScrumTimer.swift */,
 				AF9E198B25F48727004EA473 /* History.swift */,
+				AF6816DC25F4AC8300A975FD /* SpeechRecognizer.swift */,
+				AF6816E225F4AEB800A975FD /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -86,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				AF8609F925EDD97400A3D869 /* CardView.swift */,
+				AF6816DF25F4AE2900A975FD /* HistoryView.swift */,
 				AF8B623C25F3093E00333834 /* EditView.swift */,
 				AFE4D63F25F4793900759800 /* MeetingHeaderView.swift */,
 				AF89007325EC21AB008E2CA3 /* MeetingView.swift */,
@@ -187,9 +196,12 @@
 				AF6816DA25F4AAC300A975FD /* MeetingTimerView.swift in Sources */,
 				AF5103C225F351BA003638BA /* Color+Codable.swift in Sources */,
 				AFE4D64025F4793900759800 /* MeetingHeaderView.swift in Sources */,
+				AF6816E325F4AEB800A975FD /* AVPlayer+Ding.swift in Sources */,
+				AF6816DD25F4AC8300A975FD /* SpeechRecognizer.swift in Sources */,
 				AF86A81E25F4923B00CFC30E /* ScrumData.swift in Sources */,
 				AFE4D64325F479E500759800 /* ScrumTimer.swift in Sources */,
 				AF8609F725EDD90C00A3D869 /* DailyScrum.swift in Sources */,
+				AF6816E025F4AE2900A975FD /* HistoryView.swift in Sources */,
 				AF9E198C25F48727004EA473 /* History.swift in Sources */,
 				AFE4D64A25F47B2000759800 /* MeetingFooterView.swift in Sources */,
 				AF8609FA25EDD97400A3D869 /* CardView.swift in Sources */,
