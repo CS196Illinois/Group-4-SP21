@@ -1,10 +1,3 @@
-//
-//  DetailView.swift
-//  Scrumdinger
-//
-//  Created by Cooper Miller on 3/5/21.
-//
-
 import SwiftUI
 
 struct DetailView: View {
@@ -19,11 +12,11 @@ struct DetailView: View {
                         Label("Start Meeting", systemImage: "timer")
                             .font(.headline)
                             .foregroundColor(.accentColor)
-                            .accessibilityLabel(Text("Start meeting"))
+                            .accessibilityLabel(Text("start meeting"))
                     }
                 HStack {
                     Label("Length", systemImage: "clock")
-                        .accessibilityLabel(Text("Meeting length"))
+                        .accessibilityLabel(Text("meeting length"))
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
@@ -38,8 +31,19 @@ struct DetailView: View {
             Section(header: Text("Attendees")) {
                 ForEach(scrum.attendees, id: \.self) { attendee in
                     Label(attendee, systemImage: "person")
-                        .accessibilityLabel(Text("Person"))
+                        .accessibilityLabel(Text("person"))
                         .accessibilityValue(Text(attendee))
+                }
+            }
+            Section(header: Text("History")) {
+                if scrum.history.isEmpty {
+                    Label("No meetings yet", systemImage: "calendar.badge.exclamationmark")
+                }
+                ForEach(scrum.history) { history in
+                    HStack {
+                        Image(systemName: "calendar")
+                        Text(history.date, style: .date)
+                    }
                 }
             }
         }
