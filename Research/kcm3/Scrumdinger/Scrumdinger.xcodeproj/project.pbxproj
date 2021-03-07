@@ -16,6 +16,9 @@
 		AF89007925EC21AD008E2CA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF89007825EC21AD008E2CA3 /* Preview Assets.xcassets */; };
 		AF8B623D25F3093E00333834 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B623C25F3093E00333834 /* EditView.swift */; };
 		AFD088D825F2ED7B0076142C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD088D725F2ED7B0076142C /* DetailView.swift */; };
+		AFE4D64025F4793900759800 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D63F25F4793900759800 /* MeetingHeaderView.swift */; };
+		AFE4D64325F479E500759800 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D64225F479E500759800 /* ScrumTimer.swift */; };
+		AFE4D64A25F47B2000759800 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D64925F47B2000759800 /* MeetingFooterView.swift */; };
 		AFEF3ECA25F1E34E00A52682 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF3EC925F1E34E00A52682 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,9 @@
 		AF89007A25EC21AD008E2CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8B623C25F3093E00333834 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		AFD088D725F2ED7B0076142C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AFE4D63F25F4793900759800 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		AFE4D64225F479E500759800 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		AFE4D64925F47B2000759800 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		AFEF3EC925F1E34E00A52682 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +54,7 @@
 		AF5103C525F35262003638BA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AFE4D64225F479E500759800 /* ScrumTimer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -71,14 +78,16 @@
 		AF89007025EC21AB008E2CA3 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				AF89007125EC21AB008E2CA3 /* ScrumdingerApp.swift */,
-				AF89007325EC21AB008E2CA3 /* MeetingView.swift */,
 				AF8609F925EDD97400A3D869 /* CardView.swift */,
+				AF8B623C25F3093E00333834 /* EditView.swift */,
+				AFE4D63F25F4793900759800 /* MeetingHeaderView.swift */,
+				AF89007325EC21AB008E2CA3 /* MeetingView.swift */,
+				AFE4D64925F47B2000759800 /* MeetingFooterView.swift */,
 				AFEF3EC925F1E34E00A52682 /* ScrumsView.swift */,
 				AFD088D725F2ED7B0076142C /* DetailView.swift */,
-				AF8B623C25F3093E00333834 /* EditView.swift */,
 				AF5103C125F351BA003638BA /* Color+Codable.swift */,
 				AF8609F625EDD90C00A3D869 /* DailyScrum.swift */,
+				AF89007125EC21AB008E2CA3 /* ScrumdingerApp.swift */,
 				AF5103C525F35262003638BA /* Models */,
 				AF89007525EC21AD008E2CA3 /* Assets.xcassets */,
 				AF89007A25EC21AD008E2CA3 /* Info.plist */,
@@ -167,7 +176,10 @@
 				AF89007425EC21AB008E2CA3 /* MeetingView.swift in Sources */,
 				AFD088D825F2ED7B0076142C /* DetailView.swift in Sources */,
 				AF5103C225F351BA003638BA /* Color+Codable.swift in Sources */,
+				AFE4D64025F4793900759800 /* MeetingHeaderView.swift in Sources */,
+				AFE4D64325F479E500759800 /* ScrumTimer.swift in Sources */,
 				AF8609F725EDD90C00A3D869 /* DailyScrum.swift in Sources */,
+				AFE4D64A25F47B2000759800 /* MeetingFooterView.swift in Sources */,
 				AF8609FA25EDD97400A3D869 /* CardView.swift in Sources */,
 				AF8B623D25F3093E00333834 /* EditView.swift in Sources */,
 				AFEF3ECA25F1E34E00A52682 /* ScrumsView.swift in Sources */,
