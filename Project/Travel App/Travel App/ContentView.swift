@@ -1,16 +1,10 @@
-//
-//  ContentView.swift
-//  Travel App
-//
-//  Created by Matthew Geimer on 3/14/21.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Login()
+        }
     }
 }
 
@@ -19,3 +13,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
