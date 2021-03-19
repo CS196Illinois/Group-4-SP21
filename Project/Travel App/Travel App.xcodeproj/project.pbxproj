@@ -11,6 +11,7 @@
 		2292054C25FE61ED007FDC84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292054B25FE61ED007FDC84 /* ContentView.swift */; };
 		2292054E25FE61ED007FDC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2292054D25FE61ED007FDC84 /* Assets.xcassets */; };
 		2292055125FE61ED007FDC84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2292055025FE61ED007FDC84 /* Preview Assets.xcassets */; };
+		AF5D4EAA2604399C003ECFCA /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5D4EA92604399C003ECFCA /* SignUp.swift */; };
 		AF8B097E25FF0B50002BFC67 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B097D25FF0B50002BFC67 /* Login.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		2292054D25FE61ED007FDC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2292055025FE61ED007FDC84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2292055225FE61ED007FDC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5D4EA92604399C003ECFCA /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		AF8B097D25FF0B50002BFC67 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,7 @@
 				2292054925FE61ED007FDC84 /* Travel_AppApp.swift */,
 				2292054B25FE61ED007FDC84 /* ContentView.swift */,
 				AF8B097D25FF0B50002BFC67 /* Login.swift */,
+				AF5D4EA92604399C003ECFCA /* SignUp.swift */,
 				2292054D25FE61ED007FDC84 /* Assets.xcassets */,
 				2292055225FE61ED007FDC84 /* Info.plist */,
 				2292054F25FE61ED007FDC84 /* Preview Content */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF8B097E25FF0B50002BFC67 /* Login.swift in Sources */,
+				AF5D4EAA2604399C003ECFCA /* SignUp.swift in Sources */,
 				2292054C25FE61ED007FDC84 /* ContentView.swift in Sources */,
 				2292054A25FE61ED007FDC84 /* Travel_AppApp.swift in Sources */,
 			);

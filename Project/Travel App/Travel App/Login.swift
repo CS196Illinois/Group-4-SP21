@@ -6,6 +6,7 @@ struct Login : View {
     @State var email = ""
     @State var password = ""
     @State var visible = false
+    @Binding var show : Bool
     
     var body : some View {
         VStack {
@@ -68,6 +69,7 @@ struct Login : View {
             .padding(.top, 25)
             
             Button(action: {
+                self.show.toggle()
             }) {
                 Text("Register")
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
