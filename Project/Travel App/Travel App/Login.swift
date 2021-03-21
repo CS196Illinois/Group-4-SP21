@@ -1,4 +1,5 @@
 import SwiftUI
+import Firebase
 
 struct Login : View {
     
@@ -91,7 +92,14 @@ struct Login : View {
     }
     func verify() {
         if self.email != "" && self.password != "" {
-            
+            Auth.auth().signIn(withEmail: self.email, password: self.password) { (res, err) in
+                if err != nil {
+                    
+                    self.error = err!.localizedDescription
+                    self.alert.toggle()
+                }
+                print("epic")
+            }
         }
         else {
             self.error = "Please enter email and password"
