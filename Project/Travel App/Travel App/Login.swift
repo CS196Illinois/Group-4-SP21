@@ -99,6 +99,9 @@ struct Login : View {
                     self.alert.toggle()
                 }
                 print("epic")
+                UserDefaults.standard.set(true, forKey: "status")
+                NotificationCenter.default.post(name: NSNotification.Name("status"), object: nil)
+                
             }
         }
         else {
