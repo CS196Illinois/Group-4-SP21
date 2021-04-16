@@ -15,6 +15,7 @@
 		AF4160742606E67D0076ED04 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4160732606E67D0076ED04 /* ErrorView.swift */; };
 		AF5D4EAA2604399C003ECFCA /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5D4EA92604399C003ECFCA /* SignUp.swift */; };
 		AF8B097E25FF0B50002BFC67 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B097D25FF0B50002BFC67 /* Login.swift */; };
+		AFE2A21C26290B8F007C82E0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2A21B26290B8F007C82E0 /* MapView.swift */; };
 		BE24E75EF6D1E6B4E58E8F1B /* Pods_Travel_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494796A33339811DCEFBB7DA /* Pods_Travel_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		AF4160732606E67D0076ED04 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		AF5D4EA92604399C003ECFCA /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		AF8B097D25FF0B50002BFC67 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		AFE2A21B26290B8F007C82E0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				AF4160732606E67D0076ED04 /* ErrorView.swift */,
 				AF8B097D25FF0B50002BFC67 /* Login.swift */,
 				AF5D4EA92604399C003ECFCA /* SignUp.swift */,
+				AFE2A21B26290B8F007C82E0 /* MapView.swift */,
 				2292054D25FE61ED007FDC84 /* Assets.xcassets */,
 				2292055225FE61ED007FDC84 /* Info.plist */,
 				2292054F25FE61ED007FDC84 /* Preview Content */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4160742606E67D0076ED04 /* ErrorView.swift in Sources */,
+				AFE2A21C26290B8F007C82E0 /* MapView.swift in Sources */,
 				AF8B097E25FF0B50002BFC67 /* Login.swift in Sources */,
 				AF5D4EAA2604399C003ECFCA /* SignUp.swift in Sources */,
 				2292054C25FE61ED007FDC84 /* ContentView.swift in Sources */,
