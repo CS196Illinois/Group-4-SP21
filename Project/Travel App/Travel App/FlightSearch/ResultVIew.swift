@@ -18,7 +18,8 @@ struct ResultView:  View {
                 Text("TO")
             }
             HStack(spacing: 10) {
-                Text("\(resultQuote.outboundLeg.DestinationId) \(resultQuote.inboundLeg.DestinationId)")
+                Text("temp")
+//                Text("\(resultQuote.OutboundLeg.DestinationId) \(resultQuote.InboundLeg.DestinationId)")
             }
         }
         HStack(spacing: 10) {
@@ -31,17 +32,19 @@ struct ResultView:  View {
                 Text("Return Date")
             }
             HStack(spacing: 10) {
-                Text("\(resultQuote.outboundLeg.DepatureDate) \(resultQuote.inboundLeg.DepatureDate)")
+                Text("\(resultQuote.QuoteId)")
+//                Text("\(resultQuote.OutboundLeg.DepatureDate) \(resultQuote.InboundLeg.DepatureDate)")
             }
         }
         VStack(spacing: 5) {
             HStack(spacing: 10) {
                 Text("Minimum Fare: ")
-                Text("\(resultQuote.minPrice)")
+                Text("\(resultQuote.QuoteId)")
+//                Text("\(resultQuote.MinPrice)")
             }
             HStack(spacing: 10) {
                 Text("Carrier name: ")
-                Text("\(resultCarrier.Name)")
+//                Text("\(resultCarrier.Name)")
             }
         }
         

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ApiView: View {
     @State private var resultsQuote: [Quote] = getDataQuotes()
     @State private var resultsCarrier: [Carrier] = getDataCarriers()
     @State private var resultsPlace: [Place] = getDataPlaces()
@@ -24,8 +24,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ApiView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ApiView()
     }
 }

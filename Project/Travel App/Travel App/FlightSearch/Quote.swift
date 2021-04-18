@@ -9,8 +9,8 @@ import Foundation
  
 struct Quote: Codable {
     var QuoteId: Int
-    var minPrice: Int
+    var MinPrice: Int
     var Direct: Bool
-    var outboundLeg: Leg
-    var inboundLeg: Leg
+    var OutboundLeg: Leg
+    var InboundLeg: Leg
 }

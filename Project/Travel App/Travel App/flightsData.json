@@ -1,0 +1,92 @@
+{
+  "Quotes": [
+    {
+      "QuoteId": 1,
+      "MinPrice": 381,
+      "Direct": true,
+      "OutboundLeg": {
+        "CarrierIds": [
+          1
+        ],
+        "OriginId": 1,
+        "DestinationId": 2,
+        "DepartureDate": "2022-02-03T00:00:00"
+      },
+      "InboundLeg": {
+        "CarrierIds": [
+          1
+        ],
+        "OriginId": 2,
+        "DestinationId": 1,
+        "DepartureDate": "2022-02-06T00:00:00"
+      },
+      "QuoteDateTime": "2021-04-11T21:20:00"
+    },
+    {
+        "QuoteId": 2,
+        "MinPrice": 395,
+        "Direct": true,
+        "OutboundLeg": {
+          "CarrierIds": [
+            2
+          ],
+          "OriginId": 1,
+          "DestinationId": 2,
+          "DepartureDate": "2022-02-03T00:00:00"
+        },
+        "InboundLeg": {
+          "CarrierIds": [
+            3
+          ],
+          "OriginId": 2,
+          "DestinationId": 1,
+          "DepartureDate": "2022-02-06T00:00:00"
+        },
+        "QuoteDateTime": "2021-04-11T21:20:00"
+      },
+      {
+        "QuoteId": 3,
+        "MinPrice": 500,
+        "Direct": true,
+        "OutboundLeg": {
+          "CarrierIds": [
+            4
+          ],
+          "OriginId": 1,
+          "DestinationId": 2,
+          "DepartureDate": "2022-02-02T00:00:00"
+        },
+        "InboundLeg": {
+          "CarrierIds": [
+            4
+          ],
+          "OriginId": 2,
+          "DestinationId": 1,
+          "DepartureDate": "2022-02-05T00:00:00"
+        },
+        "QuoteDateTime": "2021-04-11T21:20:00"
+      },
+      {
+          "QuoteId": 4,
+          "MinPrice": 2500,
+          "Direct": true,
+          "OutboundLeg": {
+            "CarrierIds": [
+              1
+            ],
+            "OriginId": 1,
+            "DestinationId": 2,
+            "DepartureDate": "2022-02-04T00:00:00"
+          },
+          "InboundLeg": {
+            "CarrierIds": [
+              3
+            ],
+            "OriginId": 2,
+            "DestinationId": 1,
+            "DepartureDate": "2022-02-07T00:00:00"
+          },
+          "QuoteDateTime": "2021-04-11T21:20:00"
+        }
+  ]
+}

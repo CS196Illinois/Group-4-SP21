@@ -10,5 +10,5 @@ struct Leg: Codable {
     var CarrierIds: [Int]
     var OriginId: Int
     var DestinationId: Int
-    var DepatureDate: Date
+//    var DepatureDate: Date
 }
