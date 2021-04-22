@@ -9,4 +9,6 @@ import Foundation
 
 struct ResultObject: Codable {
     var Quotes: [Quote]
+    var Places: [Place]
+    var Carriers: [Carrier]
 }
