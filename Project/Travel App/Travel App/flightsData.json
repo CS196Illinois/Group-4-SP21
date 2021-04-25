@@ -3,6 +3,8 @@
     {
       "QuoteId": 1,
       "MinPrice": 381,
+      "ArrivingName": "Willard Airport",
+      "DestinationId": 2,
       "Direct": true,
       "OutboundLeg": {
         "CarrierIds": [
@@ -25,6 +27,8 @@
     {
         "QuoteId": 2,
         "MinPrice": 395,
+        "ArrivingName": "Willard Airport",
+        "DestinationId": 2,
         "Direct": true,
         "OutboundLeg": {
           "CarrierIds": [
@@ -47,6 +51,8 @@
       {
         "QuoteId": 3,
         "MinPrice": 500,
+        "ArrivingName": "Willard Airport",
+        "DestinationId": 2,
         "Direct": true,
         "OutboundLeg": {
           "CarrierIds": [
@@ -69,6 +75,8 @@
       {
           "QuoteId": 4,
           "MinPrice": 2500,
+          "ArrivingName": "Willard Airport",
+          "DestinationId": 2,
           "Direct": true,
           "OutboundLeg": {
             "CarrierIds": [
@@ -88,5 +96,37 @@
           },
           "QuoteDateTime": "2021-04-11T21:20:00"
         }
+  ],
+  "Places": [
+    {
+      "PlaceId": 1,
+      "Name": "Chicago O'Hare Intl",
+      "PlaceType": "Airport",
+      "SkyscannerCode": "ORD"
+    },
+    {
+        "PlaceId": 2,
+        "Name": "Willard Airport",
+        "PlaceType": "Airport",
+        "SkyscannerCode": "CMI"
+      }
+  ],
+  "Carriers": [
+    {
+      "CarrierId": 1,
+      "Name": "United Airlines"
+    },
+    {
+      "CarrierId": 2,
+      "Name": "American Airlines"
+    },
+    {
+      "CarrierId": 3,
+      "Name": "Delta"
+    },
+    {
+      "CarrierId": 4,
+      "Name": "Charter Flight"
+    }
   ]
 }

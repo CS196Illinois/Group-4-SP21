@@ -13,12 +13,13 @@ struct ApiView: View {
     @State private var resultsPlace: [Place] = getDataPlaces()
     var body: some View {
         List {
-            Text("Hi")
             ForEach(0 ..< resultsQuote.count, id: \.self){ index in
                 let resultq = resultsQuote[index]
-                let resultca = resultsCarrier[index]
-                let resultp = resultsPlace[index]
-                ResultView(resultQuote: resultq, resultPlace: resultp, resultCarrier: resultca)
+                let resultDepartureLocation = getPlaceForId(id: resultq.OutboundLeg.OriginId, places: resultsPlace) ?? resultsPlace[0]
+                let resultArrivalLocation = getDestinationForId(id: resultq.InboundLeg.DestinationId, inboundleg: resultq.InboundLeg) ?? resultq
+                    .InboundLeg
+                let resultDepartureCarrier = getCarrierForId(id: resultq.OutboundLeg.CarrierIds[0], carrriers: resultsCarrier)  ?? resultsCarrier[0]
+                ResultView(resultQuote: resultq, resultPlace: resultDepartureLocation, resultCarrier: resultDepartureCarrier, resultArrival: resultArrivalLocation)
             }
         }
     }

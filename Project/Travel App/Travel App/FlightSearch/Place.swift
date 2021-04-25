@@ -9,6 +9,7 @@ import Foundation
 struct Place: Codable {
     var PlaceId: Int
     var Name: String
-    var type: String
+    var PlaceType: String
     var SkyscannerCode: String
+   // var SkyscannerArrivingCode: String
 }

@@ -16,37 +16,6 @@ func getDataQuotes()->[Quote] {
                 } catch {
                     print("Error: \(error.localizedDescription)")
                 }
-        
-        //        let str = "{\"names\": [\"Bob\", \"Tim\", \"Tina\"]}"
-        //        let data = Data(str.utf8)
-        //
-        //        do {
-        //            // make sure this JSON is in the format we expect
-        //            if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
-        //                // try to read out a string array
-        //                if let names = json["names"] as? [String] {
-        //                    print(names)
-        //                }
-        //            }
-        //        } catch let error as NSError {
-        //            print("Failed to load: \(error.localizedDescription)")
-        //        }
-        
-//        do {
-//            let dataString = try String(contentsOfFile: path)
-//            let data = Data(dataString.utf8)
-//            let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-//            if let jsonResultQuote = jsonResult as? Dictionary<String, AnyObject> {
-//                if let quote = jsonResultQuote["Quotes"] as? [AnyObject] {
-//                    if let quoteArr = try JSONDecoder().decode([Quote].self, from: quote) {
-//                        return quoteArr
-//                    }
-//
-//                }
-//            }
-//        } catch {
-//            // What to catch ?
-//        }
     }
     return []
 }
@@ -77,4 +46,30 @@ func getDataCarriers()->[Carrier] {
     }
     return []
 }
+
+func getPlaceForId(id: Int, places: [Place]) -> Place? {
+    for place in places {
+        if place.PlaceId == id {
+            return place
+        }
+    }
+    return nil
+}
+
+func getCarrierForId(id: Int, carrriers: [Carrier]) -> Carrier? {
+    for carrier in carrriers {
+        if carrier.CarrierId == id {
+            return carrier
+        }
+    }
+    return nil
+}
+
+func getDestinationForId(id: Int, inboundleg: Leg) -> Leg? {
+        if inboundleg.DestinationId == id {
+            return inboundleg
+        }
+    return nil
+}
+
 
