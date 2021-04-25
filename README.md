@@ -3,7 +3,7 @@ Group Name: Group 4
 
 [MVP Link](https://docs.google.com/document/d/1yo571jks9CNipsO05hjbxLQ3gBluQv_UeOtOESS1JKs/edit?usp=sharing)
 
-Team Members: harsha4, ritvikg2, wtrepp2, xcai17
+Team Members: harsha4, ritvikg2, kcm3, xcai17
 
 Project Manager: mgeimer2, rlwei2
 
