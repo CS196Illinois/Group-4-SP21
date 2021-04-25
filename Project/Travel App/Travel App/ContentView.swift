@@ -8,7 +8,7 @@ struct ContentView: View {
         NavigationView{
             VStack {
                 if self.status {
-                    MapView()
+                    TabView()
                 }
                 else {
                     ZStack{
