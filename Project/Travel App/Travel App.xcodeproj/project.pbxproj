@@ -21,7 +21,6 @@
 		229BEA46262C87BC00D03BFC /* retreiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BEA37262C87BC00D03BFC /* retreiveData.swift */; };
 		229BEA48262C87BC00D03BFC /* Carrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BEA39262C87BC00D03BFC /* Carrier.swift */; };
 		229BEA49262C87BC00D03BFC /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BEA3A262C87BC00D03BFC /* Currency.swift */; };
-		229BEA4A262C87BC00D03BFC /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BEA3B262C87BC00D03BFC /* Information.swift */; };
 		229BEA4B262C87BC00D03BFC /* APIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BEA3C262C87BC00D03BFC /* APIView.swift */; };
 		229BEA4C262C87BC00D03BFC /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BEA3D262C87BC00D03BFC /* Place.swift */; };
 		229BEA5F262C88C700D03BFC /* flightsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 229BEA5E262C88C700D03BFC /* flightsData.json */; };
@@ -50,7 +49,6 @@
 		229BEA37262C87BC00D03BFC /* retreiveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = retreiveData.swift; path = "Travel App/FlightSearch/retreiveData.swift"; sourceTree = SOURCE_ROOT; };
 		229BEA39262C87BC00D03BFC /* Carrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Carrier.swift; path = "Travel App/FlightSearch/Carrier.swift"; sourceTree = SOURCE_ROOT; };
 		229BEA3A262C87BC00D03BFC /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = "Travel App/FlightSearch/Currency.swift"; sourceTree = SOURCE_ROOT; };
-		229BEA3B262C87BC00D03BFC /* Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Information.swift; path = "Travel App/FlightSearch/Information.swift"; sourceTree = SOURCE_ROOT; };
 		229BEA3C262C87BC00D03BFC /* APIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIView.swift; path = "Travel App/FlightSearch/APIView.swift"; sourceTree = SOURCE_ROOT; };
 		229BEA3D262C87BC00D03BFC /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = "Travel App/FlightSearch/Place.swift"; sourceTree = SOURCE_ROOT; };
 		229BEA5E262C88C700D03BFC /* flightsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flightsData.json; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 				229BEA33262C87BC00D03BFC /* Carriers.swift */,
 				229BEA35262C87BC00D03BFC /* Currencies.swift */,
 				229BEA3A262C87BC00D03BFC /* Currency.swift */,
-				229BEA3B262C87BC00D03BFC /* Information.swift */,
 				229BEA2F262C87BC00D03BFC /* leg.swift */,
 				229BEA3D262C87BC00D03BFC /* Place.swift */,
 				229BEA32262C87BC00D03BFC /* Places.swift */,
@@ -288,7 +285,6 @@
 				2292054C25FE61ED007FDC84 /* ContentView.swift in Sources */,
 				229BEA3F262C87BC00D03BFC /* Quote.swift in Sources */,
 				229BEA48262C87BC00D03BFC /* Carrier.swift in Sources */,
-				229BEA4A262C87BC00D03BFC /* Information.swift in Sources */,
 				229BEA4B262C87BC00D03BFC /* APIView.swift in Sources */,
 				2292054A25FE61ED007FDC84 /* Travel_AppApp.swift in Sources */,
 				229BEA41262C87BC00D03BFC /* Places.swift in Sources */,
