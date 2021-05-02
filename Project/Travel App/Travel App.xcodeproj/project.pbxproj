@@ -28,7 +28,9 @@
 		AF3DAE9B2606FE99006C25C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF3DAE9A2606FE99006C25C0 /* GoogleService-Info.plist */; };
 		AF4160742606E67D0076ED04 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4160732606E67D0076ED04 /* ErrorView.swift */; };
 		AF5D4EAA2604399C003ECFCA /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5D4EA92604399C003ECFCA /* SignUp.swift */; };
-		AF8B097E25FF0B50002BFC67 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B097D25FF0B50002BFC67 /* Login.swift */; };
+		AF7FC160262C83F900CB065E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7FC15F262C83F900CB065E /* Login.swift */; };
+		AFE2A21C26290B8F007C82E0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2A21B26290B8F007C82E0 /* MapView.swift */; };
+		AFEC86B326350D97002C70D6 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEC86B226350D97002C70D6 /* TabView.swift */; };
 		BE24E75EF6D1E6B4E58E8F1B /* Pods_Travel_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494796A33339811DCEFBB7DA /* Pods_Travel_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +61,9 @@
 		AF3DAE9A2606FE99006C25C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AF4160732606E67D0076ED04 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		AF5D4EA92604399C003ECFCA /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
-		AF8B097D25FF0B50002BFC67 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		AF7FC15F262C83F900CB065E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		AFE2A21B26290B8F007C82E0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AFEC86B226350D97002C70D6 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 				2292054925FE61ED007FDC84 /* Travel_AppApp.swift */,
 				2292054B25FE61ED007FDC84 /* ContentView.swift */,
 				AF4160732606E67D0076ED04 /* ErrorView.swift */,
-				AF8B097D25FF0B50002BFC67 /* Login.swift */,
+				AF7FC15F262C83F900CB065E /* Login.swift */,
 				AF5D4EA92604399C003ECFCA /* SignUp.swift */,
+				AFE2A21B26290B8F007C82E0 /* MapView.swift */,
+				AFEC86B226350D97002C70D6 /* TabView.swift */,
 				229BEA5E262C88C700D03BFC /* flightsData.json */,
 				2292054D25FE61ED007FDC84 /* Assets.xcassets */,
 				2292055225FE61ED007FDC84 /* Info.plist */,
@@ -270,6 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF7FC160262C83F900CB065E /* Login.swift in Sources */,
+				AF4160742606E67D0076ED04 /* ErrorView.swift in Sources */,
+				AFE2A21C26290B8F007C82E0 /* MapView.swift in Sources */,
+				AF5D4EAA2604399C003ECFCA /* SignUp.swift in Sources */,
+				AFEC86B326350D97002C70D6 /* TabView.swift in Sources */,
 				229BEA4C262C87BC00D03BFC /* Place.swift in Sources */,
 				AF4160742606E67D0076ED04 /* ErrorView.swift in Sources */,
 				229BEA62262C8A3E00D03BFC /* ResultObject.swift in Sources */,
