@@ -39,7 +39,7 @@ struct MapView: View {
                ) {
                    Button(action: {UIApplication.shared.open(location.url!)}) {
                     Text("📍")
-                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                       
                    }
                 }
             }
