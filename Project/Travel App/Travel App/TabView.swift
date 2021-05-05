@@ -33,7 +33,7 @@ struct Tabview: View {
                 Image(systemName: "airplane")
                     .font(.system(size: 75, weight: .bold, design: .rounded))
                     .padding()
-            Text("Flights Tab")
+            Text("Flights")
                 .font(.system(size: 30, weight: .bold, design: .rounded))
             }
                 .tabItem {
@@ -45,7 +45,7 @@ struct Tabview: View {
                 Image(systemName: "list.bullet.indent")
                     .font(.system(size: 75, weight: .bold, design: .rounded))
                     .padding()
-            Text("Itinerary Tab")
+            Text("Itinerary")
                 .font(.system(size: 30, weight: .bold, design: .rounded))
             }
                 .font(.system(size: 30, weight: .bold, design: .rounded))
@@ -58,7 +58,7 @@ struct Tabview: View {
                 Image(systemName: "person.crop.circle")
                     .font(.system(size: 50, weight: .bold, design: .rounded))
                     .padding()
-            Text("Profile Tab")
+            Text("Profile")
                 .font(.system(size: 30, weight: .bold, design: .rounded))
             }
                 .font(.system(size: 30, weight: .bold, design: .rounded))
