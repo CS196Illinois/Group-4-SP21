@@ -10,18 +10,25 @@ struct Tabview: View {
                     Text("Home")
                 }
          
-            Text("Map Tab")
+            MapView()
                 .font(.system(size: 30, weight: .bold, design: .rounded))
                 .tabItem {
                     Image(systemName: "mappin.and.ellipse")
                     Text("Map")
                 }
          
-            Text("Video Tab")
+            Text("Flights Tab")
                 .font(.system(size: 30, weight: .bold, design: .rounded))
                 .tabItem {
-                    Image(systemName: "plus.app.fill")
-                    Text("New")
+                    Image(systemName: "airplane")
+                    Text("Flights")
+                }
+            
+            Text("Itinerary Tab")
+                .font(.system(size: 30, weight: .bold, design: .rounded))
+                .tabItem {
+                    Image(systemName: "list.bullet.indent")
+                    Text("Itinerary")
                 }
          
             Text("Profile Tab")
